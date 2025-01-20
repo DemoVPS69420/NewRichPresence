@@ -41,11 +41,9 @@ def auto_update_status():
     global stop_event
     stop_event.clear()
     
-    # Get image settings from first button in buttons.json
     with open('buttons.json', 'r', encoding='utf-8') as f:
         button_config = json.load(f)[0]
     
-    # Get auto status from auto_change.json
     with open('auto_change.json', 'r', encoding='utf-8') as f:
         auto_status = json.load(f)
     
@@ -76,16 +74,13 @@ def on_closing():
     RPC.close()
     root.destroy()
 
-# Load button configurations from JSON file
 with open('buttons.json', 'r', encoding='utf-8') as f:
     activities = json.load(f)
 
-# Create the main application window
 root = tk.Tk()
 root.title("Discord Rich Presence")
 root.protocol("WM_DELETE_WINDOW", on_closing)
 
-# Create buttons
 for i, activity in enumerate(activities):
     row = i // 4
     column = i % 4
@@ -105,5 +100,4 @@ for i, activity in enumerate(activities):
         )
     button.grid(row=row, column=column, pady=10, padx=10)
 
-# Run the application
 root.mainloop()
