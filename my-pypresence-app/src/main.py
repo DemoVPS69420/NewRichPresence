@@ -5,6 +5,8 @@ import json
 from threading import Timer, Event
 from datetime import datetime, timezone, timedelta
 
+# You must update pypresence libary with this to make it work: https://github.com/qwertyquerty/pypresence/commit/d6709d33befb2063b46b523cb5abf7e373734df2
+
 CLIENT_ID = '1152566755357626388'
 RPC = Presence(CLIENT_ID)
 RPC.connect()
