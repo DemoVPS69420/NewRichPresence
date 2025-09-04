@@ -13,7 +13,7 @@ This project is a simple application that utilizes the `pypresence` library to m
 To get started, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/my-pypresence-app.git
+git clone https://github.com/DemoVPS69420/NewRichPresence.git
 cd my-pypresence-app
 pip install -r requirements.txt
 ```
