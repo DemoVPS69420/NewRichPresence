@@ -6,9 +6,9 @@
         "start": null,
         "end": null,
         "large_image": "https://raw.githubusercontent.com/DemoVPS69420/DiscordRP/refs/heads/main/lienquanimage/unnamed.png",
-        "large_text": "Garena Liên Quân Mobile",
+        "large_text": "Presence by TheRealRimuruTempest",
         "small_image": "https://raw.githubusercontent.com/DemoVPS69420/DiscordRP/refs/heads/main/lienquanimage/1110855409629139034.png",
-        "small_text": "Tinh Anh V"
+        "small_text": "Nothing here?"
     },
     {
         "text": "Cấm chọn",
@@ -154,9 +154,20 @@
         "small_text": "Tinh Anh V"
     },
     {
+        "text": "Iggy Rimuru Tempest",
+        "activity": "Đấu xếp hạng",
+        "details": "Iggy Rimuru Tempest (SSS Hữu hạn)",
+        "start": null,
+        "end": null,
+        "large_image": "https://raw.githubusercontent.com/DemoVPS69420/DiscordRP/refs/heads/main/lienquanimage/rimuru_tempest_temp_image.jpg",
+        "large_text": "Iggy Rimuru Tempest",
+        "small_image": "https://raw.githubusercontent.com/DemoVPS69420/DiscordRP/refs/heads/main/lienquanimage/1110855409629139034.png",
+        "small_text": "Tinh Anh V"
+    },
+    {
         "text": "CustomForAnyone",
-        "activity": "MỆT VAILOZ",
-        "details": "Đang dev code",
+        "activity": "Không có PC chơi, buồn ghê",
+        "details": "Đang đi khám nghĩa vụ",
         "start": null,
         "end": null,
         "large_image": "https://raw.githubusercontent.com/DemoVPS69420/DiscordRP/refs/heads/main/lienquanimage/846936053507293214.png",
